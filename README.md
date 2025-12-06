@@ -34,7 +34,7 @@ CREATE TABLE IF NOT EXISTS notes (
         ON DELETE CASCADE
 );
 
-Tener esdtas dependncias dentro del gradle
+Tener estas dependncias dentro del gradle
 dependencies {
 
     implementation(libs.appcompat)
