@@ -15,12 +15,14 @@ Eliminar notas individualmente.
 Eliminar categorías junto con sus notas (gracias a la relación con eliminación en cascada).
 
 Crear base de datos de categorias 
+
 CREATE TABLE IF NOT EXISTS categories (
     category_id INTEGER PRIMARY KEY AUTOINCREMENT,
     category_name TEXT NOT NULL
 );
 
 Base de datos de Notas
+
 CREATE TABLE IF NOT EXISTS notes (
     note_id INTEGER PRIMARY KEY AUTOINCREMENT,
     note_title TEXT NOT NULL,
